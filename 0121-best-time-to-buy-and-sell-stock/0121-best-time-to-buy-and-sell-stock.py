@@ -2,28 +2,21 @@ class Solution:
     def maxProfit(self, prices: List[int]) -> int:
 
 
-        prev = 0
-        res = 0
-        if len(prices) > 1:
+        min_price = float("inf")
 
-            res = max(0, prices[1]-prices[prev])
+        res = 0 
 
-        
 
-        for i in range(1,len(prices)):
+        for price in prices:
 
-            
+            min_price = min(price,min_price)
 
-            while prices[i] - prices[prev] < 0:
-                
-                print(res,prices[prev],prices[i])
-                prev+=1
-            res = max(res,prices[i] - prices[prev])
+            res  = max(res, price-min_price)
         
         
 
 
         return res
 
-__import__("atexit").register(lambda: open("display_runtime.txt", "w").write("0"))
+# __import__("atexit").register(lambda: open("display_runtime.txt", "w").write("0"))
         
