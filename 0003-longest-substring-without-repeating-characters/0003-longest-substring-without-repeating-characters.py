@@ -8,30 +8,20 @@ class Solution:
         
         prev = 0
 
-        t = [s[prev]]
+        t = []
 
-        for i in range(1,len(s)):
+        for i in range(len(s)):
+            
+           
+            while s[i] in t:
 
-            if s[i] in t:
+                t.remove(s[prev]) 
+                prev+=1
 
-                res = max(res,len(t))
+            t.append(s[i])
+            res  = max(res,i-prev+1)
+            
 
-                if s[i] != s[prev]:
-                    
-                    while s[i] in t:
-                        t.remove(s[prev]) 
-                        prev+=1
-
-                    t.append(s[i])
-                    # print(t)
-                else:
-                    prev += 1
-
-            else:
-
-                t.append(s[i])
-
-        res  = max(res,len(t))
         return res                
                 
             
