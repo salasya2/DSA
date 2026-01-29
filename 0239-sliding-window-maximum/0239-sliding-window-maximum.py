@@ -10,17 +10,15 @@ class Solution:
         
 
         for i in range(len(nums)):
+            
 
-            if len(d) == 0 or nums[d[-1]] > nums[i]:
-                d.append(i)
-
-            elif nums[d[-1]] <= nums[i]:
-
-                while len(d) > 0 and nums[d[-1]] <= nums[i]:
+            while len(d) > 0 and nums[d[-1]] <= nums[i]:
 
                     d.pop()
 
-                d.append(i)
+            d.append(i)
+
+                
 
             if d[0] <= i - k:
 
