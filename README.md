@@ -9,6 +9,7 @@
 | [0011-container-with-most-water](https://github.com/salasya2/DSA/tree/master/0011-container-with-most-water) |
 | [0042-trapping-rain-water](https://github.com/salasya2/DSA/tree/master/0042-trapping-rain-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/salasya2/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/salasya2/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/salasya2/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0239-sliding-window-maximum](https://github.com/salasya2/DSA/tree/master/0239-sliding-window-maximum) |
 ## Two Pointers
@@ -36,6 +37,7 @@
 | ------- |
 | [0020-valid-parentheses](https://github.com/salasya2/DSA/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/salasya2/DSA/tree/master/0042-trapping-rain-water) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/salasya2/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/salasya2/DSA/tree/master/0155-min-stack) |
 ## Monotonic Stack
 |  |
@@ -80,4 +82,8 @@
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/salasya2/DSA/tree/master/0155-min-stack) |
+## Math
+|  |
+| ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/salasya2/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 <!---LeetCode Topics End-->
