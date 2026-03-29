@@ -8,6 +8,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/salasya2/DSA/tree/master/0011-container-with-most-water) |
 | [0042-trapping-rain-water](https://github.com/salasya2/DSA/tree/master/0042-trapping-rain-water) |
+| [0074-search-a-2d-matrix](https://github.com/salasya2/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/salasya2/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/salasya2/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/salasya2/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -24,6 +25,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/salasya2/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/salasya2/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Greedy
 |  |
@@ -96,4 +98,8 @@
 |  |
 | ------- |
 | [0853-car-fleet](https://github.com/salasya2/DSA/tree/master/0853-car-fleet) |
+## Matrix
+|  |
+| ------- |
+| [0074-search-a-2d-matrix](https://github.com/salasya2/DSA/tree/master/0074-search-a-2d-matrix) |
 <!---LeetCode Topics End-->
