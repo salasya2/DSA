@@ -11,6 +11,7 @@
 | [0074-search-a-2d-matrix](https://github.com/salasya2/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/salasya2/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/salasya2/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/salasya2/DSA/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/salasya2/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0239-sliding-window-maximum](https://github.com/salasya2/DSA/tree/master/0239-sliding-window-maximum) |
 | [0739-daily-temperatures](https://github.com/salasya2/DSA/tree/master/0739-daily-temperatures) |
@@ -27,6 +28,7 @@
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/salasya2/DSA/tree/master/0074-search-a-2d-matrix) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/salasya2/DSA/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/salasya2/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0875-koko-eating-bananas](https://github.com/salasya2/DSA/tree/master/0875-koko-eating-bananas) |
 ## Greedy
