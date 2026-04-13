@@ -131,4 +131,8 @@
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/salasya2/DSA/tree/master/0021-merge-two-sorted-lists) |
 | [0143-reorder-list](https://github.com/salasya2/DSA/tree/master/0143-reorder-list) |
+## Database
+|  |
+| ------- |
+| [0181-employees-earning-more-than-their-managers](https://github.com/salasya2/DSA/tree/master/0181-employees-earning-more-than-their-managers) |
 <!---LeetCode Topics End-->
