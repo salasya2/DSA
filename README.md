@@ -72,6 +72,7 @@
 | [0076-minimum-window-substring](https://github.com/salasya2/DSA/tree/master/0076-minimum-window-substring) |
 | [0138-copy-list-with-random-pointer](https://github.com/salasya2/DSA/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/salasya2/DSA/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/salasya2/DSA/tree/master/0146-lru-cache) |
 | [0424-longest-repeating-character-replacement](https://github.com/salasya2/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/salasya2/DSA/tree/master/0567-permutation-in-string) |
 | [0981-time-based-key-value-store](https://github.com/salasya2/DSA/tree/master/0981-time-based-key-value-store) |
@@ -107,6 +108,7 @@
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/salasya2/DSA/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/salasya2/DSA/tree/master/0155-min-stack) |
 | [0981-time-based-key-value-store](https://github.com/salasya2/DSA/tree/master/0981-time-based-key-value-store) |
 ## Math
@@ -131,6 +133,7 @@
 | [0138-copy-list-with-random-pointer](https://github.com/salasya2/DSA/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/salasya2/DSA/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/salasya2/DSA/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/salasya2/DSA/tree/master/0146-lru-cache) |
 ## Recursion
 |  |
 | ------- |
@@ -145,4 +148,8 @@
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/salasya2/DSA/tree/master/0287-find-the-duplicate-number) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/salasya2/DSA/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
