@@ -7,28 +7,13 @@
 
 class Solution:
     def lowestCommonAncestor(self, root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode:
+        curr = root
 
-        stack = [root]
-        res = TreeNode(1000)
-        while stack:
+        while curr:
 
-            node = stack.pop()
-            if not node:
-                break
-            if (node.val > p.val and node.val < q.val) or (node.val > q.val and node.val < p.val): 
-                return node
-            elif node.val > p.val and node.val > q.val:
-                if res.val > node.val:
-                    res = node
-                stack.append(node.left)
-            elif node.val == p.val:
-                return p
-            elif node.val == q.val:
-                return q 
+            if p.val > curr.val and q.val > curr.val:
+                curr = curr.right
+            elif p.val < curr.val and q.val < curr.val:
+                curr = curr.left
             else:
-                if res.val< node.val:
-                    res = node
-                stack.append(node.right)
-
-        return res
-        
+                return curr
