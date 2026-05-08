@@ -10,21 +10,21 @@ class Solution:
 
         res = 0
 
-        stack = [[root,root.val]]
+        queue = collections.deque()
 
-        while stack:
+        queue.append([root,-float('inf')])
 
-            node, maximum = stack.pop()
+        while queue:
 
-            if node:
-            
-                maximum = max(maximum,node.val)
-                if node.val == maximum:
-                    res += 1
-                
+            node,maximum = queue.popleft()
 
-                stack.append([node.right,maximum])
-                stack.append([node.left,maximum])
+            if node.val >= maximum:
+                res += 1
+
+            if node.left:
+                queue.append([node.left,max(maximum, node.val)])
+            if node.right:
+                queue.append([node.right,max(maximum,node.val)])
         return res
 
 
