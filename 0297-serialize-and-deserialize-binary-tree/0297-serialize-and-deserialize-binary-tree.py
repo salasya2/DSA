@@ -16,46 +16,54 @@ class Codec:
     
     # Encodes a tree to a single string.
     def serialize(self, root: Optional[TreeNode]) -> str:
+        
+        if not root:
+            return "N"
+        
         res = []
 
-        def dfs(node):
-            nonlocal res
-            if node:
-                res.append(str(node.val))
+        queue = deque([root])
+
+        while queue:
+            node = queue.popleft()
+
             if not node:
-                res+='N'
-                return
-            
-            dfs(node.left)
-            dfs(node.right)
-
-        dfs(root)
+                res.append("N")
+            else:
+                res.append(str(node.val))
+                queue.append(node.left)
+                queue.append(node.right)
         return ",".join(res)
-
-
             
 
         
     # Decodes your encoded data to tree.
     def deserialize(self, data: str) -> Optional[TreeNode]:
         vals = data.split(",")
-        print(data)
-        self.i = 0
-        def dfs():
-            
-            if self.i > len(vals) - 1:
-                return 
-            if vals[self.i] == 'N':
-                self.i += 1
-                return None
-            node = TreeNode(int(vals[self.i]))
-            self.i += 1          
-            node.left = dfs()
-            node.right = dfs()
-            return node
-        node = dfs()
+        
+        if vals[0] == 'N':
+            return None
+        
+        root = TreeNode(int(vals[0]))
+        queue = deque([root])
 
-        return node
+        i = 1
+
+        while queue:
+
+            node = queue.popleft()
+
+            if vals[i] != 'N':
+                node.left = TreeNode(int(vals[i]))
+                queue.append(node.left)
+            
+            i+=1
+            if vals[i] != 'N':
+                node.right = TreeNode(int(vals[i]))
+                queue.append(node.right)
+            i+=1
+        
+        return root
         
 
 # Your Codec object will be instantiated and called as such:
