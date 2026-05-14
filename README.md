@@ -84,6 +84,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/salasya2/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/salasya2/DSA/tree/master/0020-valid-parentheses) |
 | [0076-minimum-window-substring](https://github.com/salasya2/DSA/tree/master/0076-minimum-window-substring) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/salasya2/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/salasya2/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/salasya2/DSA/tree/master/0567-permutation-in-string) |
 | [0981-time-based-key-value-store](https://github.com/salasya2/DSA/tree/master/0981-time-based-key-value-store) |
@@ -113,6 +114,7 @@
 | ------- |
 | [0146-lru-cache](https://github.com/salasya2/DSA/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/salasya2/DSA/tree/master/0155-min-stack) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/salasya2/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0981-time-based-key-value-store](https://github.com/salasya2/DSA/tree/master/0981-time-based-key-value-store) |
 ## Math
 |  |
@@ -180,6 +182,7 @@
 | [0226-invert-binary-tree](https://github.com/salasya2/DSA/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/salasya2/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/salasya2/DSA/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/salasya2/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/salasya2/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/salasya2/DSA/tree/master/0572-subtree-of-another-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/salasya2/DSA/tree/master/1448-count-good-nodes-in-binary-tree) |
@@ -194,6 +197,7 @@
 | [0226-invert-binary-tree](https://github.com/salasya2/DSA/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/salasya2/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/salasya2/DSA/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/salasya2/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/salasya2/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/salasya2/DSA/tree/master/0572-subtree-of-another-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/salasya2/DSA/tree/master/1448-count-good-nodes-in-binary-tree) |
@@ -205,6 +209,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/salasya2/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/salasya2/DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/salasya2/DSA/tree/master/0226-invert-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/salasya2/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/salasya2/DSA/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
@@ -219,6 +224,7 @@
 | [0226-invert-binary-tree](https://github.com/salasya2/DSA/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/salasya2/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/salasya2/DSA/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/salasya2/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/salasya2/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/salasya2/DSA/tree/master/0572-subtree-of-another-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/salasya2/DSA/tree/master/1448-count-good-nodes-in-binary-tree) |
