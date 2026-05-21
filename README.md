@@ -21,6 +21,7 @@
 | [0739-daily-temperatures](https://github.com/salasya2/DSA/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/salasya2/DSA/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/salasya2/DSA/tree/master/0875-koko-eating-bananas) |
+| [0973-k-closest-points-to-origin](https://github.com/salasya2/DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/salasya2/DSA/tree/master/1046-last-stone-weight) |
 ## Two Pointers
 |  |
@@ -111,6 +112,7 @@
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/salasya2/DSA/tree/master/0023-merge-k-sorted-lists) |
 | [0239-sliding-window-maximum](https://github.com/salasya2/DSA/tree/master/0239-sliding-window-maximum) |
+| [0973-k-closest-points-to-origin](https://github.com/salasya2/DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/salasya2/DSA/tree/master/1046-last-stone-weight) |
 ## Monotonic Queue
 |  |
@@ -130,10 +132,12 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/salasya2/DSA/tree/master/0002-add-two-numbers) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/salasya2/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0973-k-closest-points-to-origin](https://github.com/salasya2/DSA/tree/master/0973-k-closest-points-to-origin) |
 ## Sorting
 |  |
 | ------- |
 | [0853-car-fleet](https://github.com/salasya2/DSA/tree/master/0853-car-fleet) |
+| [0973-k-closest-points-to-origin](https://github.com/salasya2/DSA/tree/master/0973-k-closest-points-to-origin) |
 ## Matrix
 |  |
 | ------- |
@@ -175,6 +179,7 @@
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/salasya2/DSA/tree/master/0023-merge-k-sorted-lists) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/salasya2/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0973-k-closest-points-to-origin](https://github.com/salasya2/DSA/tree/master/0973-k-closest-points-to-origin) |
 ## Merge Sort
 |  |
 | ------- |
@@ -263,4 +268,12 @@
 |  |
 | ------- |
 | [0212-word-search-ii](https://github.com/salasya2/DSA/tree/master/0212-word-search-ii) |
+## Geometry
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/salasya2/DSA/tree/master/0973-k-closest-points-to-origin) |
+## Quickselect
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/salasya2/DSA/tree/master/0973-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
