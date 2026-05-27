@@ -82,6 +82,7 @@
 | [0141-linked-list-cycle](https://github.com/salasya2/DSA/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/salasya2/DSA/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/salasya2/DSA/tree/master/0208-implement-trie-prefix-tree) |
+| [0355-design-twitter](https://github.com/salasya2/DSA/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/salasya2/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/salasya2/DSA/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/salasya2/DSA/tree/master/0621-task-scheduler) |
@@ -117,6 +118,7 @@
 | [0023-merge-k-sorted-lists](https://github.com/salasya2/DSA/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/salasya2/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/salasya2/DSA/tree/master/0239-sliding-window-maximum) |
+| [0355-design-twitter](https://github.com/salasya2/DSA/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/salasya2/DSA/tree/master/0621-task-scheduler) |
 | [0973-k-closest-points-to-origin](https://github.com/salasya2/DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/salasya2/DSA/tree/master/1046-last-stone-weight) |
@@ -132,6 +134,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/salasya2/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/salasya2/DSA/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/salasya2/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0355-design-twitter](https://github.com/salasya2/DSA/tree/master/0355-design-twitter) |
 | [0981-time-based-key-value-store](https://github.com/salasya2/DSA/tree/master/0981-time-based-key-value-store) |
 ## Math
 |  |
@@ -163,6 +166,7 @@
 | [0141-linked-list-cycle](https://github.com/salasya2/DSA/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/salasya2/DSA/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/salasya2/DSA/tree/master/0146-lru-cache) |
+| [0355-design-twitter](https://github.com/salasya2/DSA/tree/master/0355-design-twitter) |
 ## Recursion
 |  |
 | ------- |
