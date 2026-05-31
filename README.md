@@ -9,6 +9,7 @@
 | [0011-container-with-most-water](https://github.com/salasya2/DSA/tree/master/0011-container-with-most-water) |
 | [0033-search-in-rotated-sorted-array](https://github.com/salasya2/DSA/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/salasya2/DSA/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/salasya2/DSA/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/salasya2/DSA/tree/master/0042-trapping-rain-water) |
 | [0074-search-a-2d-matrix](https://github.com/salasya2/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/salasya2/DSA/tree/master/0078-subsets) |
@@ -288,6 +289,7 @@
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/salasya2/DSA/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/salasya2/DSA/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/salasya2/DSA/tree/master/0078-subsets) |
 | [0212-word-search-ii](https://github.com/salasya2/DSA/tree/master/0212-word-search-ii) |
 ## Geometry
