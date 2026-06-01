@@ -5,18 +5,19 @@ class Solution:
         res = []
         subsets= []
         
-        def dfs(i):
+        def dfs(idx):
 
-            if i >= len(nums):
-                res.append(subsets.copy())
-                return
-            subsets.append(nums[i])
-            dfs(i+1)
-            subsets.pop()
-            while i + 1 < len(nums) and nums[i] == nums[i + 1]:
-                i += 1
-            dfs(i+1)
+            res.append(subsets.copy())
+            
+
+            for j in range(idx, len(nums)):
+
+                if j > idx and nums[j] == nums[j-1]:
+                    continue
                 
+                subsets.append(nums[j])
+                dfs(j+1)
+                subsets.pop()
         dfs(0)
         return res
             
