@@ -7,20 +7,19 @@ class Solution:
 
         for num in nums:
             count[num] += 1
-
-        def dfs(subset):
+        mask = 0
+        def dfs(subset,mask):
 
             if len(subset) == len(nums):
                 res.append(subset.copy())
                 return
 
             for i in range(len(nums)):
-                if count[nums[i]] > 0:
-                    count[nums[i]] -= 1
+                if not (mask&(1<<i)):
+                    
                     subset.append(nums[i])
-                    dfs(subset)
-                    count[nums[i]] += 1
+                    dfs(subset,(mask|(1<<i)))
                     subset.pop()
         
-        dfs(subset)
+        dfs(subset,mask)
         return res
