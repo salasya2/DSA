@@ -60,6 +60,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/salasya2/DSA/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/salasya2/DSA/tree/master/0042-trapping-rain-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/salasya2/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Stack
@@ -98,6 +99,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/salasya2/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/salasya2/DSA/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/salasya2/DSA/tree/master/0022-generate-parentheses) |
 | [0076-minimum-window-substring](https://github.com/salasya2/DSA/tree/master/0076-minimum-window-substring) |
 | [0208-implement-trie-prefix-tree](https://github.com/salasya2/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/salasya2/DSA/tree/master/0211-design-add-and-search-words-data-structure) |
@@ -291,6 +293,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/salasya2/DSA/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/salasya2/DSA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/salasya2/DSA/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/salasya2/DSA/tree/master/0046-permutations) |
