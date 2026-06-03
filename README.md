@@ -14,6 +14,7 @@
 | [0046-permutations](https://github.com/salasya2/DSA/tree/master/0046-permutations) |
 | [0074-search-a-2d-matrix](https://github.com/salasya2/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/salasya2/DSA/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/salasya2/DSA/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/salasya2/DSA/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/salasya2/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/salasya2/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -101,6 +102,7 @@
 | [0020-valid-parentheses](https://github.com/salasya2/DSA/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/salasya2/DSA/tree/master/0022-generate-parentheses) |
 | [0076-minimum-window-substring](https://github.com/salasya2/DSA/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/salasya2/DSA/tree/master/0079-word-search) |
 | [0208-implement-trie-prefix-tree](https://github.com/salasya2/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/salasya2/DSA/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/salasya2/DSA/tree/master/0212-word-search-ii) |
@@ -164,6 +166,7 @@
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/salasya2/DSA/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/salasya2/DSA/tree/master/0079-word-search) |
 | [0212-word-search-ii](https://github.com/salasya2/DSA/tree/master/0212-word-search-ii) |
 ## Linked List
 |  |
@@ -230,6 +233,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/salasya2/DSA/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/salasya2/DSA/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/salasya2/DSA/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/salasya2/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -298,6 +302,7 @@
 | [0040-combination-sum-ii](https://github.com/salasya2/DSA/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/salasya2/DSA/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/salasya2/DSA/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/salasya2/DSA/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/salasya2/DSA/tree/master/0090-subsets-ii) |
 | [0212-word-search-ii](https://github.com/salasya2/DSA/tree/master/0212-word-search-ii) |
 ## Geometry
