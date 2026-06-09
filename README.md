@@ -64,6 +64,7 @@
 | [0022-generate-parentheses](https://github.com/salasya2/DSA/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/salasya2/DSA/tree/master/0042-trapping-rain-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/salasya2/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0131-palindrome-partitioning](https://github.com/salasya2/DSA/tree/master/0131-palindrome-partitioning) |
 ## Stack
 |  |
 | ------- |
@@ -103,6 +104,7 @@
 | [0022-generate-parentheses](https://github.com/salasya2/DSA/tree/master/0022-generate-parentheses) |
 | [0076-minimum-window-substring](https://github.com/salasya2/DSA/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/salasya2/DSA/tree/master/0079-word-search) |
+| [0131-palindrome-partitioning](https://github.com/salasya2/DSA/tree/master/0131-palindrome-partitioning) |
 | [0208-implement-trie-prefix-tree](https://github.com/salasya2/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/salasya2/DSA/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/salasya2/DSA/tree/master/0212-word-search-ii) |
@@ -304,6 +306,7 @@
 | [0078-subsets](https://github.com/salasya2/DSA/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/salasya2/DSA/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/salasya2/DSA/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/salasya2/DSA/tree/master/0131-palindrome-partitioning) |
 | [0212-word-search-ii](https://github.com/salasya2/DSA/tree/master/0212-word-search-ii) |
 ## Geometry
 |  |
