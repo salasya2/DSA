@@ -7,15 +7,14 @@ class Solution:
         
 
 
-        def dfs(i,num_queens):
+        def dfs(i):
             
             
 
-            if num_queens == n:
+            if i>=n:
                 res.append(board.copy())
                 return
-            if i >= n:
-                return 
+            
             for j in range(n):
                 
                 flag = False
@@ -30,11 +29,11 @@ class Solution:
                     board[i] = "".join(s) 
                     s[j]='.'
                     visited.append((i,j))
-                    dfs(i+1,num_queens+1)
+                    dfs(i+1)
                     visited.pop()
                     board[i] = "".join(s)
                     
-        dfs(0,0)
+        dfs(0)
         return res
 
                     
