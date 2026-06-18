@@ -1,52 +1,73 @@
+class DSU:
+    def __init__(self, n):
+        self.size = [1] * (n+1)
+        self.parent = list(range(n+1))
+    
+    def find(self, node):
+
+        if self.parent[node] != node:
+            self.parent[node] = self.find(self.parent[node])
+        
+        return self.parent[node]
+    
+    def union(self, u,v):
+
+        pu = self.find(u)
+        pv = self.find(v)
+        if pu == pv:
+            return False
+        if self.size[pu] >= self.size[pv]:
+            self.size[pu] += self.size[pv]
+            self.parent[pv] = pu
+        else:
+            self.size[pv] += self.size[pu]
+            self.parent[pu] = pv
+
+        return True
+    
+    def connected(self,u,v):
+        if self.find(u) == self.find(v):
+            return True
+        return False
+    
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
-
+        
         n = len(board)
         m = len(board[0])
 
-        q = deque([])
+        dsu = DSU(n*m + 1)
 
-        for i in range(n):
-            if board[i][0] == 'O':
-                board[i][0] = '#'
-                q.append([i,0])
-            if board[i][m-1] == 'O':
-                board[i][m-1] = '#'
-                q.append([i,m-1])
-
-        for j in range(1,m):
-
-            if board[0][j] == 'O':
-                board[0][j] = '#'
-                q.append([0,j])
-            
-            if board[n-1][j] == 'O':
-                board[n-1][j] = '#'
-                q.append([n-1,j])
-        
         DIR = [[0,1],[0,-1],[1,0],[-1,0]]
 
-        while q:
+        def index(i,j):
+            return i*m + j
+        for i in range(n):
 
-            r,c = q.popleft()
+            for j in range(m):
 
-            for dr, dc in DIR:
+                if board[i][j] == 'O':
 
-                nr = dr + r
-                nc = dc + c
+                    if i == 0 or j == 0 or i == n-1 or j == m-1:
+                        dsu.union(n*m, index(i,j))
+                    
+                    else:
+                        for dr, dc in DIR:
 
-                if nr < 0 or nc < 0 or nr >= n or nc >= m or board[nr][nc] == '#' or board[nr][nc] == 'X':
-                    continue
-                
-                q.append([nr,nc])
-                board[nr][nc] = '#'
+                            nr = dr + i
+                            nc = dc + j
+
+                            if nr < 0 or nc < 0 or nr >=n or nc >=m or board[nr][nc] != 'O':
+                            
+                                continue
+                            
+                            dsu.union(index(nr,nc),index(i,j))
+
         
         for i in range(n):
             for j in range(m):
-                
-                if board[i][j] == 'O':
+
+                if not dsu.connected(index(i,j),n*m):
                     board[i][j] = 'X'
-                elif board[i][j] == '#':
-                    board[i][j] = 'O'
-        
-    
+                
+                            
