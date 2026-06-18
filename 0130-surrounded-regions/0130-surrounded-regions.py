@@ -62,11 +62,14 @@ class Solution:
                                 continue
                             
                             dsu.union(index(nr,nc),index(i,j))
+                    # print(dsu.parent)
 
         
         for i in range(n):
             for j in range(m):
-
+                if board[i][j] != 'O':
+                    
+                    continue
                 if not dsu.connected(index(i,j),n*m):
                     board[i][j] = 'X'
                 
