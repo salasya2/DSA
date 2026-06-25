@@ -17,24 +17,14 @@ class Solution:
         
         '''
 
-        word2ana = defaultdict(str)
-        anag2idx = {}
+        res = defaultdict(list)
 
-        res = []
+        for s in strs:
+            count = [0] * 26
+            for c in s:
+                count[ord(c)-ord('a')] += 1
+            res[tuple(count)].append(s)
 
-        for word in strs:
-
-            word2ana[word] = "".join(sorted(word))
-        
-        for word in strs:
-
-            if word2ana[word] not in anag2idx:
-                res.append([word])
-                anag2idx[word2ana[word]] = len(res) - 1
-            
-            else:
-                res[anag2idx[word2ana[word]]].append(word)
-
-        return res
+        return list(res.values())
 
         
