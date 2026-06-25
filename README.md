@@ -69,6 +69,7 @@
 | ------- |
 | [0022-generate-parentheses](https://github.com/salasya2/DSA/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/salasya2/DSA/tree/master/0042-trapping-rain-water) |
+| [0070-climbing-stairs](https://github.com/salasya2/DSA/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/salasya2/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/salasya2/DSA/tree/master/0131-palindrome-partitioning) |
 ## Stack
@@ -166,6 +167,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/salasya2/DSA/tree/master/0002-add-two-numbers) |
+| [0070-climbing-stairs](https://github.com/salasya2/DSA/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/salasya2/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0973-k-closest-points-to-origin](https://github.com/salasya2/DSA/tree/master/0973-k-closest-points-to-origin) |
 ## Sorting
@@ -374,4 +376,8 @@
 | ------- |
 | [0207-course-schedule](https://github.com/salasya2/DSA/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/salasya2/DSA/tree/master/0210-course-schedule-ii) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/salasya2/DSA/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
