@@ -54,6 +54,7 @@
 | [0287-find-the-duplicate-number](https://github.com/salasya2/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/salasya2/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0567-permutation-in-string](https://github.com/salasya2/DSA/tree/master/0567-permutation-in-string) |
+| [0647-palindromic-substrings](https://github.com/salasya2/DSA/tree/master/0647-palindromic-substrings) |
 ## Binary Search
 |  |
 | ------- |
@@ -80,6 +81,7 @@
 | [0131-palindrome-partitioning](https://github.com/salasya2/DSA/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/salasya2/DSA/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/salasya2/DSA/tree/master/0213-house-robber-ii) |
+| [0647-palindromic-substrings](https://github.com/salasya2/DSA/tree/master/0647-palindromic-substrings) |
 | [0746-min-cost-climbing-stairs](https://github.com/salasya2/DSA/tree/master/0746-min-cost-climbing-stairs) |
 ## Stack
 |  |
@@ -136,6 +138,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/salasya2/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/salasya2/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/salasya2/DSA/tree/master/0567-permutation-in-string) |
+| [0647-palindromic-substrings](https://github.com/salasya2/DSA/tree/master/0647-palindromic-substrings) |
 | [0981-time-based-key-value-store](https://github.com/salasya2/DSA/tree/master/0981-time-based-key-value-store) |
 ## Sliding Window
 |  |
