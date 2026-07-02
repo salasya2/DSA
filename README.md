@@ -32,6 +32,7 @@
 | [0217-contains-duplicate](https://github.com/salasya2/DSA/tree/master/0217-contains-duplicate) |
 | [0239-sliding-window-maximum](https://github.com/salasya2/DSA/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/salasya2/DSA/tree/master/0287-find-the-duplicate-number) |
+| [0322-coin-change](https://github.com/salasya2/DSA/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/salasya2/DSA/tree/master/0417-pacific-atlantic-water-flow) |
 | [0621-task-scheduler](https://github.com/salasya2/DSA/tree/master/0621-task-scheduler) |
 | [0739-daily-temperatures](https://github.com/salasya2/DSA/tree/master/0739-daily-temperatures) |
@@ -82,6 +83,7 @@
 | [0131-palindrome-partitioning](https://github.com/salasya2/DSA/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/salasya2/DSA/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/salasya2/DSA/tree/master/0213-house-robber-ii) |
+| [0322-coin-change](https://github.com/salasya2/DSA/tree/master/0322-coin-change) |
 | [0647-palindromic-substrings](https://github.com/salasya2/DSA/tree/master/0647-palindromic-substrings) |
 | [0746-min-cost-climbing-stairs](https://github.com/salasya2/DSA/tree/master/0746-min-cost-climbing-stairs) |
 ## Stack
@@ -307,6 +309,7 @@
 | [0210-course-schedule-ii](https://github.com/salasya2/DSA/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/salasya2/DSA/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/salasya2/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0322-coin-change](https://github.com/salasya2/DSA/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/salasya2/DSA/tree/master/0417-pacific-atlantic-water-flow) |
 | [0994-rotting-oranges](https://github.com/salasya2/DSA/tree/master/0994-rotting-oranges) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/salasya2/DSA/tree/master/1448-count-good-nodes-in-binary-tree) |
