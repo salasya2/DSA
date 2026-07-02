@@ -144,6 +144,7 @@
 | [0567-permutation-in-string](https://github.com/salasya2/DSA/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/salasya2/DSA/tree/master/0647-palindromic-substrings) |
 | [0981-time-based-key-value-store](https://github.com/salasya2/DSA/tree/master/0981-time-based-key-value-store) |
+| [1071-greatest-common-divisor-of-strings](https://github.com/salasya2/DSA/tree/master/1071-greatest-common-divisor-of-strings) |
 ## Sliding Window
 |  |
 | ------- |
@@ -189,6 +190,7 @@
 | [0070-climbing-stairs](https://github.com/salasya2/DSA/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/salasya2/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0973-k-closest-points-to-origin](https://github.com/salasya2/DSA/tree/master/0973-k-closest-points-to-origin) |
+| [1071-greatest-common-divisor-of-strings](https://github.com/salasya2/DSA/tree/master/1071-greatest-common-divisor-of-strings) |
 ## Sorting
 |  |
 | ------- |
