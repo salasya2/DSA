@@ -172,6 +172,7 @@
 | [0295-find-median-from-data-stream](https://github.com/salasya2/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0355-design-twitter](https://github.com/salasya2/DSA/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/salasya2/DSA/tree/master/0621-task-scheduler) |
+| [0743-network-delay-time](https://github.com/salasya2/DSA/tree/master/0743-network-delay-time) |
 | [0973-k-closest-points-to-origin](https://github.com/salasya2/DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/salasya2/DSA/tree/master/1046-last-stone-weight) |
 ## Monotonic Queue
@@ -301,6 +302,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/salasya2/DSA/tree/master/0417-pacific-atlantic-water-flow) |
 | [0543-diameter-of-binary-tree](https://github.com/salasya2/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/salasya2/DSA/tree/master/0572-subtree-of-another-tree) |
+| [0743-network-delay-time](https://github.com/salasya2/DSA/tree/master/0743-network-delay-time) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/salasya2/DSA/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -319,6 +321,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/salasya2/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/salasya2/DSA/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/salasya2/DSA/tree/master/0417-pacific-atlantic-water-flow) |
+| [0743-network-delay-time](https://github.com/salasya2/DSA/tree/master/0743-network-delay-time) |
 | [0994-rotting-oranges](https://github.com/salasya2/DSA/tree/master/0994-rotting-oranges) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/salasya2/DSA/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Binary Tree
@@ -401,6 +404,7 @@
 | [0133-clone-graph](https://github.com/salasya2/DSA/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/salasya2/DSA/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/salasya2/DSA/tree/master/0210-course-schedule-ii) |
+| [0743-network-delay-time](https://github.com/salasya2/DSA/tree/master/0743-network-delay-time) |
 ## Topological Sort
 |  |
 | ------- |
@@ -411,4 +415,8 @@
 | ------- |
 | [0070-climbing-stairs](https://github.com/salasya2/DSA/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/salasya2/DSA/tree/master/0139-word-break) |
+## Shortest Path
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/salasya2/DSA/tree/master/0743-network-delay-time) |
 <!---LeetCode Topics End-->
