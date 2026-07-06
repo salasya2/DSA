@@ -35,6 +35,7 @@
 | [0239-sliding-window-maximum](https://github.com/salasya2/DSA/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/salasya2/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0322-coin-change](https://github.com/salasya2/DSA/tree/master/0322-coin-change) |
+| [0332-reconstruct-itinerary](https://github.com/salasya2/DSA/tree/master/0332-reconstruct-itinerary) |
 | [0417-pacific-atlantic-water-flow](https://github.com/salasya2/DSA/tree/master/0417-pacific-atlantic-water-flow) |
 | [0621-task-scheduler](https://github.com/salasya2/DSA/tree/master/0621-task-scheduler) |
 | [0739-daily-temperatures](https://github.com/salasya2/DSA/tree/master/0739-daily-temperatures) |
@@ -146,6 +147,7 @@
 | [0211-design-add-and-search-words-data-structure](https://github.com/salasya2/DSA/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/salasya2/DSA/tree/master/0212-word-search-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/salasya2/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0332-reconstruct-itinerary](https://github.com/salasya2/DSA/tree/master/0332-reconstruct-itinerary) |
 | [0424-longest-repeating-character-replacement](https://github.com/salasya2/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/salasya2/DSA/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/salasya2/DSA/tree/master/0647-palindromic-substrings) |
@@ -170,6 +172,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/salasya2/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/salasya2/DSA/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/salasya2/DSA/tree/master/0295-find-median-from-data-stream) |
+| [0332-reconstruct-itinerary](https://github.com/salasya2/DSA/tree/master/0332-reconstruct-itinerary) |
 | [0355-design-twitter](https://github.com/salasya2/DSA/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/salasya2/DSA/tree/master/0621-task-scheduler) |
 | [0743-network-delay-time](https://github.com/salasya2/DSA/tree/master/0743-network-delay-time) |
@@ -205,6 +208,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/salasya2/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/salasya2/DSA/tree/master/0217-contains-duplicate) |
 | [0295-find-median-from-data-stream](https://github.com/salasya2/DSA/tree/master/0295-find-median-from-data-stream) |
+| [0332-reconstruct-itinerary](https://github.com/salasya2/DSA/tree/master/0332-reconstruct-itinerary) |
 | [0621-task-scheduler](https://github.com/salasya2/DSA/tree/master/0621-task-scheduler) |
 | [0853-car-fleet](https://github.com/salasya2/DSA/tree/master/0853-car-fleet) |
 | [0973-k-closest-points-to-origin](https://github.com/salasya2/DSA/tree/master/0973-k-closest-points-to-origin) |
@@ -299,6 +303,7 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/salasya2/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/salasya2/DSA/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/salasya2/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0332-reconstruct-itinerary](https://github.com/salasya2/DSA/tree/master/0332-reconstruct-itinerary) |
 | [0417-pacific-atlantic-water-flow](https://github.com/salasya2/DSA/tree/master/0417-pacific-atlantic-water-flow) |
 | [0543-diameter-of-binary-tree](https://github.com/salasya2/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/salasya2/DSA/tree/master/0572-subtree-of-another-tree) |
@@ -404,6 +409,7 @@
 | [0133-clone-graph](https://github.com/salasya2/DSA/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/salasya2/DSA/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/salasya2/DSA/tree/master/0210-course-schedule-ii) |
+| [0332-reconstruct-itinerary](https://github.com/salasya2/DSA/tree/master/0332-reconstruct-itinerary) |
 | [0743-network-delay-time](https://github.com/salasya2/DSA/tree/master/0743-network-delay-time) |
 ## Topological Sort
 |  |
@@ -419,4 +425,8 @@
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/salasya2/DSA/tree/master/0743-network-delay-time) |
+## Eulerian Circuit
+|  |
+| ------- |
+| [0332-reconstruct-itinerary](https://github.com/salasya2/DSA/tree/master/0332-reconstruct-itinerary) |
 <!---LeetCode Topics End-->
