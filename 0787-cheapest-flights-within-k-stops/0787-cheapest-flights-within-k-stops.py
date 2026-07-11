@@ -5,16 +5,25 @@ class Solution:
 
         prices[src] = 0
 
-        for i in range(k+1):
+        graph = [[] for _ in range(n)]
 
-            tmpPrices = prices.copy()
+        for u,v,c in flights:
+            graph[u].append([v,c])
+        
+        q = deque([(0,src,0)])
 
-            for s,d,p in flights:
+        while q:
+            c,u,stops = q.popleft()
 
-                if prices[s] == float("inf"):
-                    continue
-                
-                if prices[s] + p < tmpPrices[d]:
-                    tmpPrices[d] = prices[s] + p
-            prices = tmpPrices
-        return -1 if prices[dst] == float("inf") else prices[dst]
+            if stops > k:
+                continue
+            
+            for v,cv in graph[u]:
+
+                next_cost = cv + c
+
+                if next_cost < prices[v]:
+                    prices[v] = next_cost
+                    q.append((next_cost,v,stops+1))
+        
+        return prices[dst] if prices[dst]!= float("inf") else -1
