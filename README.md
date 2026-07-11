@@ -94,6 +94,7 @@
 | [0322-coin-change](https://github.com/salasya2/DSA/tree/master/0322-coin-change) |
 | [0647-palindromic-substrings](https://github.com/salasya2/DSA/tree/master/0647-palindromic-substrings) |
 | [0746-min-cost-climbing-stairs](https://github.com/salasya2/DSA/tree/master/0746-min-cost-climbing-stairs) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/salasya2/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Stack
 |  |
 | ------- |
@@ -180,6 +181,7 @@
 | [0621-task-scheduler](https://github.com/salasya2/DSA/tree/master/0621-task-scheduler) |
 | [0743-network-delay-time](https://github.com/salasya2/DSA/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/salasya2/DSA/tree/master/0778-swim-in-rising-water) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/salasya2/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0973-k-closest-points-to-origin](https://github.com/salasya2/DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/salasya2/DSA/tree/master/1046-last-stone-weight) |
 ## Monotonic Queue
@@ -314,6 +316,7 @@
 | [0572-subtree-of-another-tree](https://github.com/salasya2/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0743-network-delay-time](https://github.com/salasya2/DSA/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/salasya2/DSA/tree/master/0778-swim-in-rising-water) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/salasya2/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/salasya2/DSA/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -334,6 +337,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/salasya2/DSA/tree/master/0417-pacific-atlantic-water-flow) |
 | [0743-network-delay-time](https://github.com/salasya2/DSA/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/salasya2/DSA/tree/master/0778-swim-in-rising-water) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/salasya2/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0994-rotting-oranges](https://github.com/salasya2/DSA/tree/master/0994-rotting-oranges) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/salasya2/DSA/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Binary Tree
@@ -420,6 +424,7 @@
 | [0210-course-schedule-ii](https://github.com/salasya2/DSA/tree/master/0210-course-schedule-ii) |
 | [0332-reconstruct-itinerary](https://github.com/salasya2/DSA/tree/master/0332-reconstruct-itinerary) |
 | [0743-network-delay-time](https://github.com/salasya2/DSA/tree/master/0743-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/salasya2/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1584-min-cost-to-connect-all-points](https://github.com/salasya2/DSA/tree/master/1584-min-cost-to-connect-all-points) |
 ## Topological Sort
 |  |
@@ -435,6 +440,7 @@
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/salasya2/DSA/tree/master/0743-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/salasya2/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Eulerian Circuit
 |  |
 | ------- |
