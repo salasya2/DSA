@@ -11,26 +11,19 @@ class Solution:
         
 
         for num in hand:
-            i = num
-            if freq[i] == 0:
-                continue
-            while  i < num + groupSize:
+            start = num
+            while freq[start-1]:
+                start -= 1
+            while  start <= num:
+                while freq[start]:
 
-                if i not in freq:
-                    break
+                    for i in range(start,start+groupSize):
+                        if not freq[i]:
+                            return False
+                        freq[i] -= 1   
+                start += 1
                 
-                i+=1
-            if  i == num+groupSize:
-                # print(num,"",i)
-                # print("----")
-                for j in range(num , i):
-                    # print(j)
-                    freq[j] -= 1
-        # print(freq)
-        for num in hand:
-            if freq[num] != 0:
-                return False
-        
+            
         return True
         
 
