@@ -4,6 +4,8 @@ class Solution:
         '''
         hashmap
         '''
+        if len(hand)%groupSize:
+            return False
         hand.sort()
         freq = defaultdict(int)
         for num in hand:
