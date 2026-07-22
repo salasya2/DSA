@@ -71,6 +71,7 @@
 | [0295-find-median-from-data-stream](https://github.com/salasya2/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0567-permutation-in-string](https://github.com/salasya2/DSA/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/salasya2/DSA/tree/master/0647-palindromic-substrings) |
+| [0763-partition-labels](https://github.com/salasya2/DSA/tree/master/0763-partition-labels) |
 ## Binary Search
 |  |
 | ------- |
@@ -90,6 +91,7 @@
 | [0055-jump-game](https://github.com/salasya2/DSA/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/salasya2/DSA/tree/master/0134-gas-station) |
 | [0621-task-scheduler](https://github.com/salasya2/DSA/tree/master/0621-task-scheduler) |
+| [0763-partition-labels](https://github.com/salasya2/DSA/tree/master/0763-partition-labels) |
 | [0846-hand-of-straights](https://github.com/salasya2/DSA/tree/master/0846-hand-of-straights) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/salasya2/DSA/tree/master/1899-merge-triplets-to-form-target-triplet) |
 ## Dynamic Programming
@@ -150,6 +152,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/salasya2/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/salasya2/DSA/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/salasya2/DSA/tree/master/0621-task-scheduler) |
+| [0763-partition-labels](https://github.com/salasya2/DSA/tree/master/0763-partition-labels) |
 | [0846-hand-of-straights](https://github.com/salasya2/DSA/tree/master/0846-hand-of-straights) |
 | [0981-time-based-key-value-store](https://github.com/salasya2/DSA/tree/master/0981-time-based-key-value-store) |
 ## String
@@ -176,6 +179,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/salasya2/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/salasya2/DSA/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/salasya2/DSA/tree/master/0647-palindromic-substrings) |
+| [0763-partition-labels](https://github.com/salasya2/DSA/tree/master/0763-partition-labels) |
 | [0981-time-based-key-value-store](https://github.com/salasya2/DSA/tree/master/0981-time-based-key-value-store) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/salasya2/DSA/tree/master/1071-greatest-common-divisor-of-strings) |
 ## Sliding Window
