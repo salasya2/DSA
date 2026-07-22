@@ -1,22 +1,19 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
 
+        res = 0
+        i = 0
+        j = i + 1
+        n = len(prices)
 
-        min_price = float("inf")
+        while i < n and j < n:
 
-        res = 0 
-
-
-        for price in prices:
-
-            min_price = min(price,min_price)
-
-            res  = max(res, price-min_price)
-        
-        
-
+            
+            if prices[j] < prices[i]:
+                i+=1
+            else:
+                res = max(res,prices[j] - prices[i])
+                j += 1
 
         return res
-
-# __import__("atexit").register(lambda: open("display_runtime.txt", "w").write("0"))
         
