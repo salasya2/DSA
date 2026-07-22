@@ -1,27 +1,34 @@
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
+
         
-        res = 0
-        if len(s) < 1:
 
-            return res
-        
-        prev = 0
+        n = len(s)
+        maxLen = 0
+        if n == 0:
+            return 0
 
-        t = []
+        hashMap = defaultdict(int)
+        end = 0
+        while  end < n and hashMap[s[end]] == 0:
+            hashMap[s[end]] += 1 
+            maxLen += 1
+            end += 1
+        start = 0
+        print(end,maxLen)
+        for i in range(end,n):
 
-        for i in range(len(s)):
-            
-           
-            while s[i] in t:
-
-                t.remove(s[prev]) 
-                prev+=1
-
-            t.append(s[i])
-            res  = max(res,i-prev+1)
-            
-
-        return res                
+            if hashMap[s[i]] != 0:
                 
-            
+                while hashMap[s[i]] != 0:
+                    hashMap[s[start]] -= 1
+                    start += 1
+                hashMap[s[i]] += 1
+            else:
+                
+                hashMap[s[i]]+=1
+                maxLen = max(i-start+1,maxLen)
+        
+        return maxLen
+
+        
