@@ -61,6 +61,7 @@
 | [0011-container-with-most-water](https://github.com/salasya2/DSA/tree/master/0011-container-with-most-water) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/salasya2/DSA/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0042-trapping-rain-water](https://github.com/salasya2/DSA/tree/master/0042-trapping-rain-water) |
+| [0125-valid-palindrome](https://github.com/salasya2/DSA/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/salasya2/DSA/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/salasya2/DSA/tree/master/0143-reorder-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/salasya2/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -161,6 +162,7 @@
 | [0076-minimum-window-substring](https://github.com/salasya2/DSA/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/salasya2/DSA/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/salasya2/DSA/tree/master/0091-decode-ways) |
+| [0125-valid-palindrome](https://github.com/salasya2/DSA/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/salasya2/DSA/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/salasya2/DSA/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/salasya2/DSA/tree/master/0139-word-break) |
