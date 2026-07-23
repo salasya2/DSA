@@ -148,6 +148,7 @@
 | [0146-lru-cache](https://github.com/salasya2/DSA/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/salasya2/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/salasya2/DSA/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/salasya2/DSA/tree/master/0242-valid-anagram) |
 | [0355-design-twitter](https://github.com/salasya2/DSA/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/salasya2/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/salasya2/DSA/tree/master/0567-permutation-in-string) |
@@ -174,6 +175,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/salasya2/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/salasya2/DSA/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/salasya2/DSA/tree/master/0212-word-search-ii) |
+| [0242-valid-anagram](https://github.com/salasya2/DSA/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/salasya2/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0332-reconstruct-itinerary](https://github.com/salasya2/DSA/tree/master/0332-reconstruct-itinerary) |
 | [0424-longest-repeating-character-replacement](https://github.com/salasya2/DSA/tree/master/0424-longest-repeating-character-replacement) |
@@ -239,6 +241,7 @@
 | [0049-group-anagrams](https://github.com/salasya2/DSA/tree/master/0049-group-anagrams) |
 | [0215-kth-largest-element-in-an-array](https://github.com/salasya2/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/salasya2/DSA/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/salasya2/DSA/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/salasya2/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0332-reconstruct-itinerary](https://github.com/salasya2/DSA/tree/master/0332-reconstruct-itinerary) |
 | [0621-task-scheduler](https://github.com/salasya2/DSA/tree/master/0621-task-scheduler) |
