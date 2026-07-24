@@ -5,19 +5,14 @@ class Solution:
 
         stack = []
 
-        for i,c in enumerate(s):
+        for c in s:
 
-            if s[i] in d.keys():
-                stack.append(i)
+            if c in d:
+                stack.append(c)
             else:
-                if not stack:
+                if not stack or d[stack.pop()] != c:
                     return False
-                ch = s[stack.pop()]
-                
-                if c != d[ch]:
-                    return False
-        if stack:
-            return False
-        return True
+        
+        return not stack
  
         
