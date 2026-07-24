@@ -45,6 +45,7 @@
 | [0332-reconstruct-itinerary](https://github.com/salasya2/DSA/tree/master/0332-reconstruct-itinerary) |
 | [0347-top-k-frequent-elements](https://github.com/salasya2/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0417-pacific-atlantic-water-flow](https://github.com/salasya2/DSA/tree/master/0417-pacific-atlantic-water-flow) |
+| [0560-subarray-sum-equals-k](https://github.com/salasya2/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/salasya2/DSA/tree/master/0621-task-scheduler) |
 | [0739-daily-temperatures](https://github.com/salasya2/DSA/tree/master/0739-daily-temperatures) |
 | [0746-min-cost-climbing-stairs](https://github.com/salasya2/DSA/tree/master/0746-min-cost-climbing-stairs) |
@@ -156,6 +157,7 @@
 | [0355-design-twitter](https://github.com/salasya2/DSA/tree/master/0355-design-twitter) |
 | [0387-first-unique-character-in-a-string](https://github.com/salasya2/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/salasya2/DSA/tree/master/0424-longest-repeating-character-replacement) |
+| [0560-subarray-sum-equals-k](https://github.com/salasya2/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/salasya2/DSA/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/salasya2/DSA/tree/master/0621-task-scheduler) |
 | [0763-partition-labels](https://github.com/salasya2/DSA/tree/master/0763-partition-labels) |
@@ -498,4 +500,8 @@
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/salasya2/DSA/tree/master/0347-top-k-frequent-elements) |
+## Prefix Sum
+|  |
+| ------- |
+| [0560-subarray-sum-equals-k](https://github.com/salasya2/DSA/tree/master/0560-subarray-sum-equals-k) |
 <!---LeetCode Topics End-->
