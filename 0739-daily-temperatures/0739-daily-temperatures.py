@@ -1,35 +1,32 @@
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
 
+        '''
+        int list -> temperatures
+        return int list -> answer
+        answer[i] = no of days after ith day to get temperature[j] > temparature[i]
 
-        res = [0] * len(temperatures)
-
+        i -> check i + 1 to n array
+        stack and iterate from the back
+        '''
+        n = len(temperatures)
+        if n == 1:
+            return [0]
+        answers = [0] * n
         stack = []
 
-        for i in range(len(temperatures)):
+        for i in range(n):
 
-            if stack:
-
-                index = stack[-1]
-                if temperatures[i] < temperatures[index]:
-                    stack.append(i)
-                    continue
-                
+            if not stack:
+                stack.append(i)
+                continue
+            while stack:
+                if temperatures[i] > temperatures[stack[-1]]:
+                    idx = stack.pop()
+                    answers[idx] = i - idx
                 else:
-
-                    while stack and temperatures[stack[-1]] < temperatures[i]:
-
-                        index = stack.pop()
-
-                        res[index] = i - index
-
+                    break
             stack.append(i)
+        return answers 
 
-        return res
-
-
-
-            
-
-
-
+        
