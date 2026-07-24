@@ -7,16 +7,21 @@ class Solution:
         -> order doesn't matter
         
         '''
-
-        d = {}
-
-        for num in nums:
-            d[num] = d.get(num,0) + 1
-
-        sortedDict = sorted(d.items(), key = lambda x : (x[1],x[0]),reverse = True)
+        n = len(nums)
+        d = [[]  for  _ in range(n+1)] 
+        counter = Counter(nums)
+        
+        for item,count in counter.items():
+            
+            d[count].append(item)
         res = []
-        for  i in range(k):
+        target = k
+        for i in range(n,-1,-1):
 
-            res.append(sortedDict[i][0])
-        return res
+            if  k > 0 and len(d[i]) > 0:
+                
+                res.extend(d[i])
+                k -= len(d[i])
+        return res[:target]
+
         
