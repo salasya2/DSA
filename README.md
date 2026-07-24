@@ -150,6 +150,7 @@
 | [0217-contains-duplicate](https://github.com/salasya2/DSA/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/salasya2/DSA/tree/master/0242-valid-anagram) |
 | [0355-design-twitter](https://github.com/salasya2/DSA/tree/master/0355-design-twitter) |
+| [0387-first-unique-character-in-a-string](https://github.com/salasya2/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/salasya2/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/salasya2/DSA/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/salasya2/DSA/tree/master/0621-task-scheduler) |
@@ -178,6 +179,7 @@
 | [0242-valid-anagram](https://github.com/salasya2/DSA/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/salasya2/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0332-reconstruct-itinerary](https://github.com/salasya2/DSA/tree/master/0332-reconstruct-itinerary) |
+| [0387-first-unique-character-in-a-string](https://github.com/salasya2/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/salasya2/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/salasya2/DSA/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/salasya2/DSA/tree/master/0647-palindromic-substrings) |
@@ -196,6 +198,7 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/salasya2/DSA/tree/master/0239-sliding-window-maximum) |
+| [0387-first-unique-character-in-a-string](https://github.com/salasya2/DSA/tree/master/0387-first-unique-character-in-a-string) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -435,6 +438,7 @@
 ## Counting
 |  |
 | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/salasya2/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0621-task-scheduler](https://github.com/salasya2/DSA/tree/master/0621-task-scheduler) |
 ## Data Stream
 |  |
