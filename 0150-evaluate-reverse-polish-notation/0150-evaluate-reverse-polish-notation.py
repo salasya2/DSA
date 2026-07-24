@@ -7,7 +7,7 @@ class Solution:
 
         for c in tokens:
 
-            if c not in ('+','-','*','/'):
+            if c not in {'+','-','*','/'}:
                 stack.append(int(c))
                 continue
             
@@ -19,7 +19,7 @@ class Solution:
                     num = num1 + num2
                     if num > 2**31-1:
                         num = 2**31-1
-                    stack.append(num1+num2)
+                    stack.append(num)
                 case '-':
                     num = num1 - num2
                     if num < -2**31:
@@ -34,7 +34,7 @@ class Solution:
                         num = - 2 ** 31
                     stack.append(num)
                 case '/':
-                    num = math.trunc(num1/num2)
+                    num = int(num1/num2)
                     if num > 2**31-1:
                         num = 2**31-1
                     if num < -2**31:
