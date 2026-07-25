@@ -4,25 +4,29 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-
 class Solution:
-
     def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
 
-        res = 0
+        '''
+        diameter -> length of longest path between two nodes
 
+        1 -> 2, 3 ; 2 -> 4,5
+        '''
+        diameter = 0
         def dfs(root):
-            nonlocal res
-
+            nonlocal diameter
             if not root:
                 return 0
-
             left = dfs(root.left)
             right = dfs(root.right)
-            res = max(res,left+right)
+
+            diameter = max(diameter,left + right)
 
             return 1 + max(left,right)
-
+        
         dfs(root)
-        return res
+        return diameter
+
+
+
         
