@@ -4,24 +4,26 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-
 class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
-        
-        if root == None:
+
+        '''
+            invert the tree
+            at each level, left child bcomes right child
+
+        '''
+
+        if not root:
             return root
-        stack = []
-        node = root
-        stack.append(node)
-        while len(stack) > 0:
+
+        stack = [root]
+
+        while stack:
             node = stack.pop()
-            temp = node.left
-            node.left = node.right
-            node.right = temp
-            if node.left :
+            node.left,node.right = node.right,node.left
+            if node.left:
                 stack.append(node.left)
             if node.right:
                 stack.append(node.right)
+        
         return root
-        
-        
