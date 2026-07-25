@@ -24,9 +24,10 @@ class Solution:
             mid = l + (r - l)//2
 
             time_taken = 0
-            for i in range(n):
+            for p in piles:
 
-                time_taken += (piles[i] + mid - 1)//mid
+                time_taken += (p + mid - 1)//mid
+                
             if time_taken <= h:
                 r = mid - 1
             else:
