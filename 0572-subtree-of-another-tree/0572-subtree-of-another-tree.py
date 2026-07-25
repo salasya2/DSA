@@ -4,46 +4,31 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+class Solution:
+    def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
 
-class Solution:   
-    def isSametree(self,p,q):
-        
-        stack = [[p,q]]
-
-        while stack:
-            node1, node2 = stack.pop()
-
-            if not node1 and not node2:
-                continue
-            if not (node1 and node2) or (not node2 and node1) or (node2.val!=node1.val):
-                return False
-            
-            stack.append([node1.left,node2.left])
-            stack.append([node1.right,node2.right])
-        return True
-            
-    def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNodse]) -> bool:
-
-        if not root and not subroot :
+        '''
+            Given subroot and root -> return true if subtree of root
+        '''
+        if not root and not subRoot:
+            return True
+        if not root or not subRoot:
+            return False 
+        if self.helper(root,subRoot):
+            return True
+        if self.isSubtree(root.left,subRoot) or self.isSubtree(root.right,subRoot):
             return True
 
-        stack = [root]
-
-        while stack:
-            node  = stack.pop()
-            
-            if node:
-                if node.val == subRoot.val:
-                    flag = self.isSametree(node,subRoot)
-                    if flag:
-                        return flag
-                stack.append(node.left)
-                stack.append(node.right)
-        
         return False
 
-            
+    def helper(self,root,subRoot):
 
+        if not root and not subRoot:
+            return True
+        if not root or not subRoot:
+            return False
 
-
+        if root.val == subRoot.val  and self.helper(root.left,subRoot.left) and self.helper(root.right,subRoot.right):
+            return True
         
+        return False
