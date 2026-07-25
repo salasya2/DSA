@@ -3,52 +3,54 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-
 class Solution:
 
-    
-    def reverseList(self,head:Optional[ListNode]) -> ListNode:
-        if head is None:
-            return head
+    def reverse(self, head) -> None:
+
+        curr = head
+        if not curr:
+            return curr
         
         prev = None
-        curr = head
-        nex = None
 
         while curr:
-
-            nex = curr.next
+            nxt = curr.next
             curr.next = prev
-            prev  = curr
-            curr = nex
-
-
+            prev = curr
+            curr = nxt
         return prev
     def reorderList(self, head: Optional[ListNode]) -> None:
         
-        slow = fast = head
+        """
+            Do not return anything, modify head in-place instead.
+        """
+        dummy = ListNode(0,head)
+        slow ,fast= dummy, dummy
 
         while fast and fast.next:
-
             slow = slow.next
             fast = fast.next.next
 
-        mid = self.reverseList(slow.next)
-        
+        rev = slow.next
         slow.next = None
+        rev = self.reverse(rev)
 
-        slow = fast = head
+        del slow, fast
+
+        temp = dummy.next
+
+        while temp and rev:
+            nxt = rev.next
+            tmpnxt = temp.next
+            temp.next = rev
+            rev.next = tmpnxt
+            rev = nxt
+            temp = tmpnxt
         
-        while slow and mid:
-            fast = slow.next
-            temp = mid.next
+        return dummy.next
 
-            slow.next = mid
-            mid.next = fast
             
-            slow = fast
-            mid = temp
 
 
 
-  
+        
