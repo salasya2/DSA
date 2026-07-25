@@ -26,7 +26,7 @@ class Solution:
             time_taken = 0
             for i in range(n):
 
-                time_taken += math.ceil(piles[i]/mid)
+                time_taken += (piles[i] + mid - 1)//mid
             if time_taken <= h:
                 r = mid - 1
             else:
