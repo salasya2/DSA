@@ -7,27 +7,14 @@
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
 
-        if not root:
-            return True
+        def validate(node, min_val,max_val):
+            if not node:
+                return True
 
-        q = collections.deque()
-
-        q.append([root, -float("inf"),float("inf")])
-
-        while q:
-
-            qLen = len(q)
-
-            for i in range(qLen):
-
-                node, minLimit, maxLimit= q.popleft()
-
-                if node:
-
-                    if node.val <= minLimit or node.val >= maxLimit:
-                        return False
-                    
-                    q.append([node.left,minLimit, min(maxLimit, node.val)])
-                    q.append([node.right, max(minLimit,node.val),maxLimit])
-        return True
+            if not (min_val < node.val < max_val):
+                return False
+            
+            return validate(node.left, min_val, node.val) and validate(node.right, node.val, max_val)
+        #
+        return validate(root, float("-inf"), float("inf"))
         
