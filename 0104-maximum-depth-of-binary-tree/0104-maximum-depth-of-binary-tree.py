@@ -21,5 +21,6 @@ class Solution:
                 stack.append([node.right,depth+1])
         
         return res
-        
+        # timecomplexity = O(N)
+        # space = O(n)or O(logn)    
         
