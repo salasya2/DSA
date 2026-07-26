@@ -12,6 +12,8 @@ class Solution:
             nonlocal ans,k,h
             if not node:
                 return
+            if k < h:
+                return
             inorder(node.left)
             
             h += 1
