@@ -4,30 +4,23 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-
 class Solution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
-
-
-        stack = []
-
-        curr = root 
-
-        while curr or stack:
-
-            while curr:
-                stack.append(curr)
-                curr = curr.left
+        h = 0
+        ans = 0
+        def inorder(node):
+            nonlocal ans,k,h
+            if not node:
+                return
+            inorder(node.left)
             
-            curr = stack.pop()
-            k -= 1
-            if k == 0:
-                return curr.val
-            curr = curr.right
+            h += 1
+            if k == h:
+                ans = node.val
+                return
+            inorder(node.right)
 
-            
-
-
-
+        inorder(root)
+        return ans
 
         
