@@ -1,29 +1,36 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        
+
+        visited= {}
+        if len(prerequisites) == 0:
+            return True
+        graph = {i : [] for i in range(numCourses)}
         indegree = [0] * numCourses
-        adj = [[] for i in range(numCourses)]
+        for pre in prerequisites:
 
-        for src, dest in prerequisites:
+            graph[pre[1]].append(pre[0])
+            indegree[pre[0]] += 1
 
-            adj[src].append(dest)
-            indegree[dest] += 1
+        count = 0
+        queue = deque()
+        for i in range(len(indegree)):
+            if indegree[i] == 0:
+                queue.append(i)
         
-        finish = 0
-        q = deque()
-        for n in range(numCourses):
-            if indegree[n] == 0:
-                q.append(n)
+        while queue:
+
+            node = queue.popleft()
+            count += 1
+
+            for v in graph[node]:
+
+                indegree[v] -= 1
+                if indegree[v] == 0:
+                    queue.append(v)
+        print(count, numCourses)
+        return (count == numCourses)
+
+    # O((v+e)) O(v)
+
+# O(n)
         
-        while q:
-            node = q.popleft()
-            finish += 1
-
-            for neigh in adj[node]:
-                indegree[neigh] -= 1
-
-                if indegree[neigh] == 0:
-                    q.append(neigh)
-
-        return finish == numCourses 
-            
