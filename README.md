@@ -47,6 +47,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/salasya2/DSA/tree/master/0417-pacific-atlantic-water-flow) |
 | [0560-subarray-sum-equals-k](https://github.com/salasya2/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/salasya2/DSA/tree/master/0621-task-scheduler) |
+| [0695-max-area-of-island](https://github.com/salasya2/DSA/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/salasya2/DSA/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/salasya2/DSA/tree/master/0739-daily-temperatures) |
 | [0746-min-cost-climbing-stairs](https://github.com/salasya2/DSA/tree/master/0746-min-cost-climbing-stairs) |
@@ -272,6 +273,7 @@
 | [0200-number-of-islands](https://github.com/salasya2/DSA/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/salasya2/DSA/tree/master/0212-word-search-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/salasya2/DSA/tree/master/0417-pacific-atlantic-water-flow) |
+| [0695-max-area-of-island](https://github.com/salasya2/DSA/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/salasya2/DSA/tree/master/0733-flood-fill) |
 | [0778-swim-in-rising-water](https://github.com/salasya2/DSA/tree/master/0778-swim-in-rising-water) |
 | [0994-rotting-oranges](https://github.com/salasya2/DSA/tree/master/0994-rotting-oranges) |
@@ -364,6 +366,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/salasya2/DSA/tree/master/0417-pacific-atlantic-water-flow) |
 | [0543-diameter-of-binary-tree](https://github.com/salasya2/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/salasya2/DSA/tree/master/0572-subtree-of-another-tree) |
+| [0695-max-area-of-island](https://github.com/salasya2/DSA/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/salasya2/DSA/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/salasya2/DSA/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/salasya2/DSA/tree/master/0778-swim-in-rising-water) |
@@ -386,6 +389,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/salasya2/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/salasya2/DSA/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/salasya2/DSA/tree/master/0417-pacific-atlantic-water-flow) |
+| [0695-max-area-of-island](https://github.com/salasya2/DSA/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/salasya2/DSA/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/salasya2/DSA/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/salasya2/DSA/tree/master/0778-swim-in-rising-water) |
@@ -470,6 +474,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/salasya2/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/salasya2/DSA/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/salasya2/DSA/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/salasya2/DSA/tree/master/0695-max-area-of-island) |
 | [0778-swim-in-rising-water](https://github.com/salasya2/DSA/tree/master/0778-swim-in-rising-water) |
 | [1584-min-cost-to-connect-all-points](https://github.com/salasya2/DSA/tree/master/1584-min-cost-to-connect-all-points) |
 ## Graph Theory
