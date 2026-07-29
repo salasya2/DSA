@@ -1,83 +1,78 @@
 class Solution:
     def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
+        '''
+         - m x n rect islands -> borders are both pacific and Atlantic
 
+         - pacific will touch where i = 0 or j = 0
+         - atlantic will touch where i = m-1 or j = n-1
+
+         - water can flow from r,c to nr,nc if height[r][c] >= height[nr][nc]
+         - report all the cells from where the water can flow to both atlantic and pacific oceans
+
+         - approach is to take all the cells touching atlantic or pacific and mark each cell in grid as being touched by atlantic or pacific or both
+
+        '''
+
+        m = len(heights)
+        n = len(heights[0])
+
+        Dir = [[-1,0],[1,0],[0,-1],[0,1]]
+
+        queue = deque()
+
+        for i in range(0,m):
+            queue.append([i,0])
+        
+        for j in range(0,n):
+            queue.append([0,j])
+        
+        visited = {}
+
+        while queue:
+
+            r,c = queue.popleft()
+            if (r,c) in visited:
+                continue
+            visited[(r,c)] = 1
+
+            for dr,dc in Dir:
+
+                nr,nc = r + dr , c + dc
+
+                if nr < 0 or nc < 0 or  nr >= m or nc >=n or heights[r][c] > heights[nr][nc] or (nr,nc) in visited:
+                    continue
+                queue.append([nr,nc])
+        
+        for i in range(0,m):
+            queue.append([i,n-1])
+        for i in range(0,n):
+            queue.append([m-1,i])
+        # print(visited)
+        # print("-----------")
         res = []
-        n = len(heights)
-        m = len(heights[0])
-
-        queue = deque([])
-        visited = defaultdict(int)
-        for i in range(n):
-            visited[(i, 0)] = -1
-            queue.append([i, 0])
-
-        for j in range(1, m):
-            visited[(0, j)] = -1
-            queue.append([0, j])
-
-        DIR = [[-1, 0], [1, 0], [0, 1], [0, -1]]
-       
         while queue:
-            for i in range(len(queue)):
-                r, c = queue.popleft()
 
-                for dr, dc in DIR:
-                    nr = dr + r
-                    nc = dc + c
-
-                    if (
-                        nr < 0
-                        or nc < 0
-                        or nr >= n
-                        or nc >= m
-                        or heights[r][c] > heights[nr][nc]
-                        or visited[(nr, nc)] == -1
-                    ):
-                        continue
-
-                    queue.append([nr, nc])
-                    visited[(nr, nc)] = -1
-
-        for i in range(n):
-            if visited[(i, m - 1)] == -1:
-                visited[(i, m - 1)] = -3
-                res.append([i, m - 1])
+            r,c = queue.popleft()
+            
+            if (r,c) in visited and visited[(r,c)] == 1:
+                visited[(r,c)] = 0
+                res.append([r,c])
             else:
-                visited[(i, m - 1)] = -2
-            queue.append([i, m - 1])
+                visited[(r,c)] = 2
+            
+            for dr,dc in Dir:
 
-        for j in range(m - 1):
-            if visited[(n - 1, j)] == -1:
-                visited[(n - 1, j)] = -3
-                res.append([n - 1, j])
-            else:
-                visited[(n - 1, j)] = -2
-            queue.append([n - 1, j])
+                nr , nc = r + dr , c + dc
 
-        while queue:
-            for i in range(len(queue)):
-                r, c = queue.popleft()
+                if nr < 0 or nr >= m or nc <0 or  nc >= n or heights[r][c] > heights[nr][nc] or ((nr,nc) in visited and visited[(nr,nc)]!=1):
+                    continue
+                queue.append([nr,nc])
+        print(visited)
+        return res 
+                
 
-                for dr, dc in DIR:
-                    nr = dr + r
-                    nc = dc + c
 
-                    if (
-                        nr < 0
-                        or nc < 0
-                        or nr >= n
-                        or nc >= m
-                        or heights[r][c] > heights[nr][nc]
-                        or visited[(nr, nc)] == -2
-                        or visited[(nr, nc)] == -3
-                    ):
-                        continue
+                    
+                
 
-                    queue.append([nr, nc])
-                    if visited[(nr, nc)] == -1:
-                        visited[(nr, nc)] = -3
-                        res.append([nr, nc])
-                    else:
-                        visited[(nr, nc)] = -2
 
-        return res
