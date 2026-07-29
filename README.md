@@ -60,6 +60,7 @@
 | [1046-last-stone-weight](https://github.com/salasya2/DSA/tree/master/1046-last-stone-weight) |
 | [1584-min-cost-to-connect-all-points](https://github.com/salasya2/DSA/tree/master/1584-min-cost-to-connect-all-points) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/salasya2/DSA/tree/master/1899-merge-triplets-to-form-target-triplet) |
+| [3484-design-spreadsheet](https://github.com/salasya2/DSA/tree/master/3484-design-spreadsheet) |
 ## Two Pointers
 |  |
 | ------- |
@@ -166,6 +167,7 @@
 | [0763-partition-labels](https://github.com/salasya2/DSA/tree/master/0763-partition-labels) |
 | [0846-hand-of-straights](https://github.com/salasya2/DSA/tree/master/0846-hand-of-straights) |
 | [0981-time-based-key-value-store](https://github.com/salasya2/DSA/tree/master/0981-time-based-key-value-store) |
+| [3484-design-spreadsheet](https://github.com/salasya2/DSA/tree/master/3484-design-spreadsheet) |
 ## String
 |  |
 | ------- |
@@ -195,6 +197,7 @@
 | [0763-partition-labels](https://github.com/salasya2/DSA/tree/master/0763-partition-labels) |
 | [0981-time-based-key-value-store](https://github.com/salasya2/DSA/tree/master/0981-time-based-key-value-store) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/salasya2/DSA/tree/master/1071-greatest-common-divisor-of-strings) |
+| [3484-design-spreadsheet](https://github.com/salasya2/DSA/tree/master/3484-design-spreadsheet) |
 ## Sliding Window
 |  |
 | ------- |
@@ -243,6 +246,7 @@
 | [0355-design-twitter](https://github.com/salasya2/DSA/tree/master/0355-design-twitter) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/salasya2/DSA/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0981-time-based-key-value-store](https://github.com/salasya2/DSA/tree/master/0981-time-based-key-value-store) |
+| [3484-design-spreadsheet](https://github.com/salasya2/DSA/tree/master/3484-design-spreadsheet) |
 ## Math
 |  |
 | ------- |
@@ -279,6 +283,7 @@
 | [0733-flood-fill](https://github.com/salasya2/DSA/tree/master/0733-flood-fill) |
 | [0778-swim-in-rising-water](https://github.com/salasya2/DSA/tree/master/0778-swim-in-rising-water) |
 | [0994-rotting-oranges](https://github.com/salasya2/DSA/tree/master/0994-rotting-oranges) |
+| [3484-design-spreadsheet](https://github.com/salasya2/DSA/tree/master/3484-design-spreadsheet) |
 ## Linked List
 |  |
 | ------- |
