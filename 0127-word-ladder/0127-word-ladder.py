@@ -30,14 +30,19 @@ class Solution:
 
                 if word == endWord:
                     return res
-                visited.add(word)
-                for i in range(len(word)):
-                    pattern = word[:i] + "*" + word[i+1:]
+                
+            
+                for j in range(len(word)):
+                    pattern = word[:j] + "*" + word[j+1:]
+                    if pattern in visited:
+                        continue
+                    visited.add(pattern)
                     for nei_word in graph[pattern]:
                         if nei_word not in visited:
-                            queue.append(nei_word)
-            
-        
+                            queue.append(nei_word)   
+                            visited.add(nei_word)    
         return 0
+    
+    #O(n*m + m)    #O(n*m + m) 
 
         
