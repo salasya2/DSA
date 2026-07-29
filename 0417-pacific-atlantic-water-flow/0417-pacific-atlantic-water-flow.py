@@ -18,58 +18,33 @@ class Solution:
 
         Dir = [[-1,0],[1,0],[0,-1],[0,1]]
 
-        queue = deque()
+       
+        def dfs(r,c,reachable_set):
 
-        for i in range(0,m):
-            queue.append([i,0])
-        
-        for j in range(0,n):
-            queue.append([0,j])
-        
-        visited = {}
-
-        while queue:
-
-            r,c = queue.popleft()
-            if (r,c) in visited:
-                continue
-            visited[(r,c)] = 1
+            reachable_set.add((r,c))
 
             for dr,dc in Dir:
 
-                nr,nc = r + dr , c + dc
+                nr , nc = dr + r, dc + c
 
-                if nr < 0 or nc < 0 or  nr >= m or nc >=n or heights[r][c] > heights[nr][nc] or (nr,nc) in visited:
+                if nr < 0 or nr >= m or nc < 0 or nc >=n or (nr,nc) in reachable_set or heights[r][c] > heights[nr][nc] :
                     continue
-                queue.append([nr,nc])
+                dfs(nr,nc,reachable_set)
+        pacific = set()
+        atlantic = set()
+        for c in range(n):
+
+            dfs(0,c,pacific)
+            dfs(m-1,c,atlantic)
+        for r in range(m):
+            dfs(r,0,pacific)
+            dfs(r,n-1,atlantic)
         
-        for i in range(0,m):
-            queue.append([i,n-1])
-        for i in range(0,n):
-            queue.append([m-1,i])
-        # print(visited)
-        # print("-----------")
-        res = []
-        while queue:
+        return list(pacific & atlantic)
 
-            r,c = queue.popleft()
-            
-            if (r,c) in visited and visited[(r,c)] == 1:
-                visited[(r,c)] = 0
-                res.append([r,c])
-            else:
-                visited[(r,c)] = 2
-            
-            for dr,dc in Dir:
-
-                nr , nc = r + dr , c + dc
-
-                if nr < 0 or nr >= m or nc <0 or  nc >= n or heights[r][c] > heights[nr][nc] or ((nr,nc) in visited and visited[(nr,nc)]!=1):
-                    continue
-                queue.append([nr,nc])
-        print(visited)
+       
         return res 
-                
+        # O(m*n) #O(m*n)     
 
 
                     
