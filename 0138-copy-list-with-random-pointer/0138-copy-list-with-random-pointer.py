@@ -16,21 +16,29 @@ class Solution:
 
         '''
 
-        mapped = {}
-        if not head:
-            return head
-        
         curr = head
-
+        dummy = Node(0)
+        temp = dummy
         while curr:
-            mapped[curr] = Node(curr.val)
-            curr = curr.next
+            new_node = Node(curr.val,curr.next,None)
+            curr.next = new_node
+            curr = new_node.next
         
         curr = head
         while curr:
-
-            mapped[curr].next = mapped.get(curr.next)
-            mapped[curr].random = mapped.get(curr.random)
+            if curr.random:
+                curr.next.random = curr.random.next
+            curr = curr.next.next
+        
+        curr = head
+        dummy = Node(0)
+        copy_curr = dummy
+        while curr:
+            copy_curr.next = curr.next
+            copy_curr = copy_curr.next
+            curr.next = curr.next.next
             curr = curr.next
-    
-        return mapped[head]
+        return dummy.next
+
+
+
