@@ -41,6 +41,7 @@
 | [0217-contains-duplicate](https://github.com/salasya2/DSA/tree/master/0217-contains-duplicate) |
 | [0239-sliding-window-maximum](https://github.com/salasya2/DSA/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/salasya2/DSA/tree/master/0287-find-the-duplicate-number) |
+| [0300-longest-increasing-subsequence](https://github.com/salasya2/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/salasya2/DSA/tree/master/0322-coin-change) |
 | [0332-reconstruct-itinerary](https://github.com/salasya2/DSA/tree/master/0332-reconstruct-itinerary) |
 | [0347-top-k-frequent-elements](https://github.com/salasya2/DSA/tree/master/0347-top-k-frequent-elements) |
@@ -86,6 +87,7 @@
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/salasya2/DSA/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/salasya2/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/salasya2/DSA/tree/master/0287-find-the-duplicate-number) |
+| [0300-longest-increasing-subsequence](https://github.com/salasya2/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0778-swim-in-rising-water](https://github.com/salasya2/DSA/tree/master/0778-swim-in-rising-water) |
 | [0875-koko-eating-bananas](https://github.com/salasya2/DSA/tree/master/0875-koko-eating-bananas) |
 | [0981-time-based-key-value-store](https://github.com/salasya2/DSA/tree/master/0981-time-based-key-value-store) |
@@ -118,6 +120,7 @@
 | [0152-maximum-product-subarray](https://github.com/salasya2/DSA/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/salasya2/DSA/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/salasya2/DSA/tree/master/0213-house-robber-ii) |
+| [0300-longest-increasing-subsequence](https://github.com/salasya2/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/salasya2/DSA/tree/master/0322-coin-change) |
 | [0647-palindromic-substrings](https://github.com/salasya2/DSA/tree/master/0647-palindromic-substrings) |
 | [0746-min-cost-climbing-stairs](https://github.com/salasya2/DSA/tree/master/0746-min-cost-climbing-stairs) |
