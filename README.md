@@ -126,6 +126,7 @@
 | [0647-palindromic-substrings](https://github.com/salasya2/DSA/tree/master/0647-palindromic-substrings) |
 | [0746-min-cost-climbing-stairs](https://github.com/salasya2/DSA/tree/master/0746-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/salasya2/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1143-longest-common-subsequence](https://github.com/salasya2/DSA/tree/master/1143-longest-common-subsequence) |
 ## Stack
 |  |
 | ------- |
@@ -204,6 +205,7 @@
 | [0767-reorganize-string](https://github.com/salasya2/DSA/tree/master/0767-reorganize-string) |
 | [0981-time-based-key-value-store](https://github.com/salasya2/DSA/tree/master/0981-time-based-key-value-store) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/salasya2/DSA/tree/master/1071-greatest-common-divisor-of-strings) |
+| [1143-longest-common-subsequence](https://github.com/salasya2/DSA/tree/master/1143-longest-common-subsequence) |
 | [3484-design-spreadsheet](https://github.com/salasya2/DSA/tree/master/3484-design-spreadsheet) |
 ## Sliding Window
 |  |
