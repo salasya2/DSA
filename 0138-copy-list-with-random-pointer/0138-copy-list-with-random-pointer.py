@@ -9,22 +9,42 @@ class Node:
 
 class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
+        
+        '''
+         - deep copy -> n brand new node
+         - next and random must  point to new nodes
 
-        new_head = Node(0)
-        if head is None:
+        '''
+
+        mapped = {}
+        if not head:
             return head
-
-        temp = new_head
-        curr = head
-        d = collections.defaultdict(lambda : Node(0))
-        d[None] = None
-
-        while curr:
-
-            d[curr].val = curr.val
-            d[curr].next = d[curr.next]
-            d[curr].random = d[curr.random]
-            curr = curr.next      
-
-        return d[head]
+        dummy = Node(0)
+        curr = dummy
+        temp = head
+        while temp:
+            if temp in mapped:
+                curr.next = mapped[temp]
+            else:
+                curr.next = Node(temp.val)
+                mapped[temp] = curr.next
+            random_node = temp.random
+            curr = curr.next
+            curr_random = curr
             
+            while random_node:
+                # print(random_node.val,temp.random.val, temp.val)
+                if random_node in mapped:
+                   
+                    curr_random.random = mapped[random_node]
+                    curr_random = curr_random.random
+                    break
+                else:
+                    curr_random.random = Node(random_node.val)
+                    mapped[random_node] = curr_random.random
+                    curr_random = curr_random.random
+                random_node = random_node.random
+            
+            temp = temp.next
+    
+        return mapped[head]
