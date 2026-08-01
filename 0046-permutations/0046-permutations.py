@@ -1,19 +1,23 @@
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
 
+        n = len(nums)
         res = []
-
-
-        def dfs(idx):
-
-            if idx == len(nums):
-                res.append(nums[:])
+        perm = []
+        def helper(i):
+            if len(perm) == n:
+                res.append(perm[:])
                 return
             
-            for i in range(idx, len(nums)):
-                nums[idx],nums[i] = nums[i],nums[idx]
-                dfs(idx+1)
-                nums[idx],nums[i] = nums[i],nums[idx]
-        dfs(0)
+            for j in range(n):
+                if nums[j] in perm:
+                    continue
+                perm.append(nums[j])
+                helper(j)
+                perm.pop()
+                
+        
+        helper(0)
         return res
+
         
