@@ -1,24 +1,30 @@
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
+
+        '''
+        given 
+
+        str with digits -> 2 - 9
+
         
-        num2alph = {'2':"abc",'3':"def",'4':"ghi",'5':"jkl",'6':"mno",'7':"pqrs",'8':"tuv",'9':"wxyz"}
+        '''
+        mapping = { '2' : 'abc', '3' : 'def','4':'ghi','5' : 'jkl' , '6' :'mno','7':'pqrs' ,'8':
+        'tuv','9' : 'wxyz' }
 
-        if len(digits) == 0:
-            return []
         res = []
+        string = []
+        def helper(i):
 
-        def dfs(subset,i):
-            
-
-            if i >= len(digits):
-
-                res.append(subset)
+            if  i == len(digits):
+                res.append("".join(string))
                 return
-            alphs = num2alph[digits[i]]
-            
-            for j in alphs:
 
-                dfs(subset+j,i+1)
+            for c in mapping[digits[i]]:
+                string.append(c)
+                helper(i+1)
+                string.pop()
 
-        dfs("",0)
+        helper(0)
         return res
+
+        
