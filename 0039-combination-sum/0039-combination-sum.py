@@ -10,22 +10,21 @@ class Solution:
         res = []
         comb = []
         visited = set()
+        nums.sort()
         def helper(i , target):
-            if target < 0:
-                return 
+            
             if target == 0:
-                
-                if tuple(sorted(comb)) in visited:
-                    return
                 res.append(comb[:])
-                visited.add(tuple(sorted(comb)))
                 return
 
-            for j in range(len(nums)):
-                # print(i,nums[j])
+            for j in range(i,len(nums)):
+                if nums[j] > target:
+                    return 
                 comb.append(nums[j])
-                helper(i + 1, target - nums[j])
+                helper(j, target - nums[j])
                 comb.pop()
         
         helper(0,target)
         return res
+
+        #O()
