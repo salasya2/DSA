@@ -1,22 +1,31 @@
 class Solution:
     def combinationSum(self, nums: List[int], target: int) -> List[List[int]]:
         
-        res = []
-        nums.sort()
+        n = len(nums)
 
-        def dfs(i, cur, total):
-            if total == target:
-                res.append(cur.copy())
+        # list of unique combinations
+        # same number can be chosen many times
+        # any two combinations must not be same.
+
+        res = []
+        comb = []
+        visited = set()
+        def helper(i , target):
+            if target < 0:
+                return 
+            if target == 0:
+                
+                if tuple(sorted(comb)) in visited:
+                    return
+                res.append(comb[:])
+                visited.add(tuple(sorted(comb)))
                 return
-            
-            for j in range(i, len(nums)):
-                if nums[j] + total > target:
-                    return 
-                
-                
-                cur.append(nums[j])
-                dfs(j,cur, total+nums[j])
-                cur.pop()
+
+            for j in range(len(nums)):
+                # print(i,nums[j])
+                comb.append(nums[j])
+                helper(i + 1, target - nums[j])
+                comb.pop()
         
-        dfs(0,[],0)
+        helper(0,target)
         return res
