@@ -2,24 +2,13 @@ class Solution:
     def canJump(self, nums: List[int]) -> bool:
 
         n = len(nums)
-        dp = [False] * n
+        goal = n -1
+        for i in range(n-1,-1,-1):
 
-        dp[n-1] = True
+            if i + nums[i] >= goal:
+                goal = i
+        return (goal == 0)
 
-        for i in range(n-2,-1,-1):
-
-            for j in range(i + 1, min(n,i + nums[i] + 1)):
-
-                if dp[j]:
-                    dp[i] = True
-        print(dp)
-        return dp[0]
-        # def helper(i):
-
-        #     if i >= n-1:
-        #         return True
-        #     if nums[i] == 0:
-        #         return False
 
         #     steps  = nums[i]
 
