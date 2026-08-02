@@ -393,6 +393,7 @@
 | [0743-network-delay-time](https://github.com/salasya2/DSA/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/salasya2/DSA/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/salasya2/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1192-critical-connections-in-a-network](https://github.com/salasya2/DSA/tree/master/1192-critical-connections-in-a-network) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/salasya2/DSA/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -512,6 +513,7 @@
 | [0332-reconstruct-itinerary](https://github.com/salasya2/DSA/tree/master/0332-reconstruct-itinerary) |
 | [0743-network-delay-time](https://github.com/salasya2/DSA/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/salasya2/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1192-critical-connections-in-a-network](https://github.com/salasya2/DSA/tree/master/1192-critical-connections-in-a-network) |
 | [1584-min-cost-to-connect-all-points](https://github.com/salasya2/DSA/tree/master/1584-min-cost-to-connect-all-points) |
 ## Topological Sort
 |  |
@@ -548,4 +550,8 @@
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/salasya2/DSA/tree/master/0062-unique-paths) |
+## Biconnected Component
+|  |
+| ------- |
+| [1192-critical-connections-in-a-network](https://github.com/salasya2/DSA/tree/master/1192-critical-connections-in-a-network) |
 <!---LeetCode Topics End-->
