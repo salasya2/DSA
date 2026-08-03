@@ -56,6 +56,7 @@
 | [0846-hand-of-straights](https://github.com/salasya2/DSA/tree/master/0846-hand-of-straights) |
 | [0853-car-fleet](https://github.com/salasya2/DSA/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/salasya2/DSA/tree/master/0875-koko-eating-bananas) |
+| [0904-fruit-into-baskets](https://github.com/salasya2/DSA/tree/master/0904-fruit-into-baskets) |
 | [0973-k-closest-points-to-origin](https://github.com/salasya2/DSA/tree/master/0973-k-closest-points-to-origin) |
 | [0994-rotting-oranges](https://github.com/salasya2/DSA/tree/master/0994-rotting-oranges) |
 | [1046-last-stone-weight](https://github.com/salasya2/DSA/tree/master/1046-last-stone-weight) |
@@ -174,6 +175,7 @@
 | [0763-partition-labels](https://github.com/salasya2/DSA/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/salasya2/DSA/tree/master/0767-reorganize-string) |
 | [0846-hand-of-straights](https://github.com/salasya2/DSA/tree/master/0846-hand-of-straights) |
+| [0904-fruit-into-baskets](https://github.com/salasya2/DSA/tree/master/0904-fruit-into-baskets) |
 | [0981-time-based-key-value-store](https://github.com/salasya2/DSA/tree/master/0981-time-based-key-value-store) |
 | [3484-design-spreadsheet](https://github.com/salasya2/DSA/tree/master/3484-design-spreadsheet) |
 ## String
@@ -217,6 +219,7 @@
 | [0239-sliding-window-maximum](https://github.com/salasya2/DSA/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/salasya2/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/salasya2/DSA/tree/master/0567-permutation-in-string) |
+| [0904-fruit-into-baskets](https://github.com/salasya2/DSA/tree/master/0904-fruit-into-baskets) |
 ## Queue
 |  |
 | ------- |
