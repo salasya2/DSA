@@ -23,8 +23,7 @@ class Solution:
         while i < n and j < n:
 
             if len(seen) == 2 and fruits[j] not in seen:
-                print(seen)
-                print(res)
+               
                 idx = j
                 for fr,fruit_id in seen.items():
                     idx = min(fruit_id,idx)
