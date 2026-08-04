@@ -270,6 +270,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/salasya2/DSA/tree/master/0002-add-two-numbers) |
+| [0009-palindrome-number](https://github.com/salasya2/DSA/tree/master/0009-palindrome-number) |
 | [0062-unique-paths](https://github.com/salasya2/DSA/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/salasya2/DSA/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/salasya2/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
