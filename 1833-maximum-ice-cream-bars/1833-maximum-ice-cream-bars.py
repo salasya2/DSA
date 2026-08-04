@@ -9,24 +9,27 @@ class Solution:
          
 
         '''
-        costs.sort()
-        count = {}
+        
+        cost_min = cost_max = max(costs)
+
+        freq = [0] * (cost_max + 1)
 
         for c in costs:
-
-            count[c] = count.get(c,0) + 1
-
+            freq[c] += 1
+            cost_min = min(cost_min,c)
+        
         res = 0
-        for c,count in count.items():
-            if c > coins:
-                continue
-            while count:
+        for i in range(cost_min, len(freq)):
 
-                res += 1
-                count -= 1
-                coins -= c
-                if c > coins:
-                    return res
+            f = freq[i]
+
+            if f == 0:
+                continue
+            buy = min(coins//i,f)
+            if buy == 0:
+                break
+            res += buy
+            coins -= buy * i
         return res
 
 
