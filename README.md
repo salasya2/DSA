@@ -64,6 +64,7 @@
 | [0994-rotting-oranges](https://github.com/salasya2/DSA/tree/master/0994-rotting-oranges) |
 | [1046-last-stone-weight](https://github.com/salasya2/DSA/tree/master/1046-last-stone-weight) |
 | [1584-min-cost-to-connect-all-points](https://github.com/salasya2/DSA/tree/master/1584-min-cost-to-connect-all-points) |
+| [1833-maximum-ice-cream-bars](https://github.com/salasya2/DSA/tree/master/1833-maximum-ice-cream-bars) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/salasya2/DSA/tree/master/1899-merge-triplets-to-form-target-triplet) |
 | [3484-design-spreadsheet](https://github.com/salasya2/DSA/tree/master/3484-design-spreadsheet) |
 ## Two Pointers
@@ -108,6 +109,7 @@
 | [0763-partition-labels](https://github.com/salasya2/DSA/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/salasya2/DSA/tree/master/0767-reorganize-string) |
 | [0846-hand-of-straights](https://github.com/salasya2/DSA/tree/master/0846-hand-of-straights) |
+| [1833-maximum-ice-cream-bars](https://github.com/salasya2/DSA/tree/master/1833-maximum-ice-cream-bars) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/salasya2/DSA/tree/master/1899-merge-triplets-to-form-target-triplet) |
 ## Dynamic Programming
 |  |
@@ -296,6 +298,7 @@
 | [0846-hand-of-straights](https://github.com/salasya2/DSA/tree/master/0846-hand-of-straights) |
 | [0853-car-fleet](https://github.com/salasya2/DSA/tree/master/0853-car-fleet) |
 | [0973-k-closest-points-to-origin](https://github.com/salasya2/DSA/tree/master/0973-k-closest-points-to-origin) |
+| [1833-maximum-ice-cream-bars](https://github.com/salasya2/DSA/tree/master/1833-maximum-ice-cream-bars) |
 ## Matrix
 |  |
 | ------- |
@@ -592,4 +595,8 @@
 |  |
 | ------- |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/salasya2/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+## Counting Sort
+|  |
+| ------- |
+| [1833-maximum-ice-cream-bars](https://github.com/salasya2/DSA/tree/master/1833-maximum-ice-cream-bars) |
 <!---LeetCode Topics End-->
