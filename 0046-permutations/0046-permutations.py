@@ -2,22 +2,30 @@ class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
 
         n = len(nums)
+
         res = []
+
         perm = []
+
+
         def helper(i):
-            if len(perm) == n:
+
+            if i==n-1:
                 res.append(perm[:])
                 return
             
-            for j in range(n):
+
+            if i > n:
+                return
+            
+            for j in range(0,n):
                 if nums[j] in perm:
                     continue
                 perm.append(nums[j])
-                helper(j)
-                perm.pop()
-                
-        
-        helper(0)
-        return res
 
+                helper(i + 1)
+
+                perm.pop()
+        helper(-1)
+        return res
         
