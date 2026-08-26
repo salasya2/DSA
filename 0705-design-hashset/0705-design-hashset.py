@@ -1,23 +1,50 @@
+class ListNode:
+    def __init__(self, key):
+        self.key = key 
+        self.next = None
+
+
+
 class MyHashSet:
 
     def __init__(self):
-        self.arr = []
         
-
+        self.size = 10007
+        self.buckets = [ListNode(0) for _ in range(self.size)]
+        
+    def _hash(self,key):
+        return key % self.size
 
     def add(self, key: int) -> None:
-        if key not in self.arr:
-            self.arr.append(key)
+        index = self._hash(key)
+        curr = self.buckets[index]
+
+        while curr.next:
+            if curr.next.key == key:
+                return
+            curr = curr.next
+        curr.next = ListNode(key)
 
     def remove(self, key: int) -> None:
-        if key in self.arr:
-            self.arr.remove(key)
+        index = self._hash(key)
+        curr = self.buckets[index]
+
+        while curr.next:
+            if curr.next.key == key:
+                curr.next = curr.next.next
+                return
+            curr = curr.next
+        
             
 
     def contains(self, key: int) -> bool:
-        if key in self.arr:
+        index = self._hash(key)
+        curr = self.buckets[index]
 
+        while curr.next:
+            if curr.next.key == key:
                 return True
+            curr = curr.next
         return False
 
 
