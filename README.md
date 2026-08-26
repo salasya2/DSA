@@ -52,6 +52,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/salasya2/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/salasya2/DSA/tree/master/0621-task-scheduler) |
 | [0695-max-area-of-island](https://github.com/salasya2/DSA/tree/master/0695-max-area-of-island) |
+| [0705-design-hashset](https://github.com/salasya2/DSA/tree/master/0705-design-hashset) |
 | [0733-flood-fill](https://github.com/salasya2/DSA/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/salasya2/DSA/tree/master/0739-daily-temperatures) |
 | [0746-min-cost-climbing-stairs](https://github.com/salasya2/DSA/tree/master/0746-min-cost-climbing-stairs) |
@@ -180,6 +181,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/salasya2/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/salasya2/DSA/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/salasya2/DSA/tree/master/0621-task-scheduler) |
+| [0705-design-hashset](https://github.com/salasya2/DSA/tree/master/0705-design-hashset) |
 | [0763-partition-labels](https://github.com/salasya2/DSA/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/salasya2/DSA/tree/master/0767-reorganize-string) |
 | [0846-hand-of-straights](https://github.com/salasya2/DSA/tree/master/0846-hand-of-straights) |
@@ -268,6 +270,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/salasya2/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0355-design-twitter](https://github.com/salasya2/DSA/tree/master/0355-design-twitter) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/salasya2/DSA/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0705-design-hashset](https://github.com/salasya2/DSA/tree/master/0705-design-hashset) |
 | [0981-time-based-key-value-store](https://github.com/salasya2/DSA/tree/master/0981-time-based-key-value-store) |
 | [3484-design-spreadsheet](https://github.com/salasya2/DSA/tree/master/3484-design-spreadsheet) |
 ## Math
@@ -327,6 +330,7 @@
 | [0146-lru-cache](https://github.com/salasya2/DSA/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/salasya2/DSA/tree/master/0206-reverse-linked-list) |
 | [0355-design-twitter](https://github.com/salasya2/DSA/tree/master/0355-design-twitter) |
+| [0705-design-hashset](https://github.com/salasya2/DSA/tree/master/0705-design-hashset) |
 ## Recursion
 |  |
 | ------- |
@@ -465,6 +469,7 @@
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/salasya2/DSA/tree/master/0572-subtree-of-another-tree) |
+| [0705-design-hashset](https://github.com/salasya2/DSA/tree/master/0705-design-hashset) |
 ## Binary Search Tree
 |  |
 | ------- |
