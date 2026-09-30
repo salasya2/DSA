@@ -68,6 +68,7 @@
 | [1584-min-cost-to-connect-all-points](https://github.com/salasya2/DSA/tree/master/1584-min-cost-to-connect-all-points) |
 | [1833-maximum-ice-cream-bars](https://github.com/salasya2/DSA/tree/master/1833-maximum-ice-cream-bars) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/salasya2/DSA/tree/master/1899-merge-triplets-to-form-target-triplet) |
+| [1929-concatenation-of-array](https://github.com/salasya2/DSA/tree/master/1929-concatenation-of-array) |
 | [3484-design-spreadsheet](https://github.com/salasya2/DSA/tree/master/3484-design-spreadsheet) |
 ## Two Pointers
 |  |
@@ -609,4 +610,8 @@
 |  |
 | ------- |
 | [1833-maximum-ice-cream-bars](https://github.com/salasya2/DSA/tree/master/1833-maximum-ice-cream-bars) |
+## Simulation
+|  |
+| ------- |
+| [1929-concatenation-of-array](https://github.com/salasya2/DSA/tree/master/1929-concatenation-of-array) |
 <!---LeetCode Topics End-->
